@@ -1,0 +1,30 @@
+.history-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.history-list-titles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.history-list-titles {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 60px;
+}
+
+.dlt-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.delete-img {
+  width: 20px;
+}

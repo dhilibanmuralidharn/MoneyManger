@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+.card-container {
+  max-width: 900px;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 25px;
+}
+.heading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+.description {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+}
+.spanEl {
+  color: #0b69ff;
+}
+.transaction-and-history-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.transaction-container {
+  margin-top: 45px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.transaction-heading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: black;
+}
+.label-heading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #7e858e;
+}
+.inputElemnet {
+  padding: 10px 15px;
+  font-size: 15px;
+  outline: none;
+  margin-top: 15px;
+  border: 1px solid gray;
+}
+.type-container {
+  text-align: left;
+  padding: 15px;
+}
+.add-button {
+  padding: 10px 15px;
+  background-color: #0b69ff;
+  color: white;
+  text-align: center;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.history-container {
+  border: 1px solid gray;
+  padding: 20px;
+  width: 500px;
+  height: 450px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.list-item {
+  list-style-type: none;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 500px;
+}
+.list-items-heading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+  margin-right: 60px;
+}
